@@ -1,0 +1,44 @@
+{
+  "id": "Bag_Model_01",
+  "index": 3,
+  "model": "./model/Bag_Model_01.glb",
+  "environment": "./model/environment.env",
+  "environmentIntensity" : 2,
+  "environmentTextureRotationY" : 5.2,
+  "meshNames": [
+    "Bag_model_01"
+  ],
+  "camera": {
+    "alpha": 1.2062,
+    "beta": 1.7237,
+    "radius": 0.5000,
+    "target": [
+      0,
+      0.08,
+      0
+    ],
+    "lowerRadiusLimit": 0.2,
+    "upperRadiusLimit": 0.5,
+    "wheelDeltaPercentage": 0.05,
+    "fov": 0.66
+  },
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 2,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 149,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":1024,
+      "shadowGenerator": {
+        "bias": 0.0001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}
+	]
+}

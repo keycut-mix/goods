@@ -1,0 +1,166 @@
+{
+  "id": "Chanel_Demo",
+  "environment": "./model/environment.env",
+  "environmentIntensity" : 2,
+  "environmentTextureRotationY" : 1,
+  "lightMap":[
+    {
+      "name" : "wall_sh",
+      "url" : "./model/lightmap_a.png",
+      "level" : 5
+    },
+    {
+      "name" : "shelf_sh",
+      "url" : "./model/lightmap_b.png",
+      "level" : 5
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 80.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 11.99,
+      "innerAngle": 0,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	 {
+      "type": "spot",
+      "name": "Spot.001",
+      "intensity": 10.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 21.1994,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":1024,
+      "shadowGenerator": {
+        "bias": 0.00005,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	{
+      "type": "spot",
+      "name": "Spot.002",
+      "intensity": 40.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 15.0974,
+      "innerAngle": 0.1,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	
+	{
+      "type": "spot",
+      "name": "Spot.003",
+      "intensity": 80,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 8.8980,
+      "innerAngle": 2.6986,
+      "shadow":true,
+      "size":512,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	},
+	{
+      "type": "spot",
+      "name": "Spot.004",
+      "intensity": 80.0000,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 11.9977,
+      "innerAngle": 0,
+      "shadow":true,
+      "size":1024,
+      "shadowGenerator": {
+        "bias": 0.000010,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}
+	
+	
+	],
+  "material": [
+    {
+      "name": "bottle_add",
+      "VolumeIndexOfRefraction": 1.43,
+      "TintAtDistance": 1
+    },
+    {
+      "name": "liquid_add",
+      "VolumeIndexOfRefraction": 1.19,
+      "TintAtDistance": 1
+    },
+	{
+      "name": "Glass",
+      "useAlbedoToTintTranslucency": false
+    }
+  ],
+  "lens":[
+    {
+      "index" : 1,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 2,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 3,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },
+    {
+      "index" : 4,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    },    
+    {
+      "index" : 5,
+      "aperture" : 0,
+      "distortion" : 0,
+      "pentagon" : false,
+      "highLightGain" : 0,
+      "highLightThreshold" : 0
+    }
+  ]
+}

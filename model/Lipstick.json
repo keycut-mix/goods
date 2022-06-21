@@ -1,0 +1,45 @@
+{
+  "id": "Lipstick",
+  "index": 4,
+  "model": "./model/Lipstick.glb",
+  "environment": "./model/environment.env",
+  "environmentIntensity": 3,
+  "environmentTextureRotationY": 1.2846,
+  "meshNames": [
+    "rouge_lipstick_rouge_cap"
+  ],
+  "autoPlay": true,
+  "camera": {
+    "alpha": 0.01,
+    "beta": 1.5309,
+    "radius": 0.13,
+    "target": [
+      0,
+      0.04,
+      0
+    ],
+    "lowerRadiusLimit": 0.1,
+    "upperRadiusLimit": 0.5,
+    "wheelDeltaPercentage": 0.05,
+    "fov": 0.66
+  },
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 1,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 80,
+      "innerAngle": 6.8010,
+      "shadow": true,
+      "size": 256,
+      "shadowGenerator": {
+        "bias": 0.000001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+    }
+  ]
+}

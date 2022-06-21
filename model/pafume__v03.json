@@ -1,0 +1,55 @@
+{
+  "id": "pafume__v03",
+  "index" : 5,
+  "model": "./model/pafume__v03.glb",
+  "environment": "./model/environment.env",
+  "environmentIntensity" : 2,
+  "environmentTextureRotationY" : 0,
+  "meshNames": [
+    "Parfum_cap_B_primitive0"
+  ],
+  "camera": {
+    "alpha": 1.5332,
+    "beta": 1.5914,
+    "radius": 0.2,
+    "target": [
+      0,
+      0.05,
+      0
+    ],
+    "lowerRadiusLimit": 0.1,
+    "upperRadiusLimit": 0.5,
+    "wheelDeltaPercentage": 0.05,
+    "fov": 0.66
+  },
+  "material": [
+    {
+      "name": "bottle_add",
+      "VolumeIndexOfRefraction": 1.6,
+      "TintAtDistance": 1
+    },
+    {
+      "name": "liquid_add",
+      "VolumeIndexOfRefraction": 3.0,
+      "TintAtDistance": 1
+    }
+  ],
+  "lights": [
+    {
+      "type": "spot",
+      "name": "Spot",
+      "intensity": 1,
+      "diffuse": "#FFFFFF",
+      "specular": "#FFFFFF",
+      "angle": 80,
+      "innerAngle": 6.8010,
+      "shadow":false,
+      "size":256,
+      "shadowGenerator": {
+        "bias": 0.000001,
+        "darkness": 0,
+        "filter": "PCF",
+        "filteringQuality": "HIGH"
+      }
+	}]
+}
